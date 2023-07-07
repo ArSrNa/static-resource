@@ -2,135 +2,28 @@
 <html lang="zh">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>公告 | Ar-Sr-Na</title>
-    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link href="https://www.arsrna.cn/css/armain.css" rel="stylesheet">
-    <!-- <link href="index.css" rel="stylesheet"> -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>前面的区域，以后再来探索吧？ | Ar-Sr-Na</title>
+  <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
 
-<body style="background-color: black">
+<nav class="navbar navbar-light nav-blur lead" style="height: 60px; z-index:-1;box-shadow: 0 1px 10px #999;">
+  <div class="container-fluid">
+    <i class="bi bi-info-circle-fill"> ？？？ | Ar-Sr-Na</i>
+  </div>
+</nav>
 
-    <nav class="navbar navbar-light nav-blur lead" style="height: 70px; z-index:-1">
-        <div class="container-fluid">
-            <i class="bi bi-info-circle-fill"> 公告 | Ar-Sr-Na</i>
-        </div>
-    </nav>
 
-    <div style="margin-top: -70px;z-index:-999" class="text-white">
-        <img id="bg" src="index.jpg" alt="...">
-        <div class="card-img-overlay overlayText" style="overflow: hidden;">
-            <div class="display-3"><i class="bi bi-exclamation-triangle-fill">&nbsp;</i>站点待定</div>
-            <hr>
-            <p class="lead" style="line-height: 2rem;">
-                <i class="bi bi-info-circle-fill">&nbsp;</i>站点未上传，本页为默认页面
-                <br>
-            <h2 class="card-title"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>为什么会出现该页面？</h2>
-            <div class="lead">当前页面为默认页面，请确认站点内默认文件存在。部分站点性质原因，需要提供必要文件并履行相应手续。<br />
-                如果您成功部署站点，并正确进行绑定操作，将会出现该页面，证明您已配置成功，但站点不存在任何文件。<br />
-            </div>
-            <br>此致
-            <br>Ar-Sr-Na <a href="https://www.arsrna.cn" class="text-white">访问主站</a>
-            </p>
-        </div>
-    </div>
+<body>
+  <div style="display: flex;align-items: center;justify-content: center; height: 60vh; flex-direction: column;"
+    class="text-center container">
+    <img src="./error.png" style="width: 100px; margin: 10px;">
+    <h1 class="display-6">前面的区域，以后再来探索吧？</h1>
+    <div class="lead">页面待定，敬请期待！说不定能发现什么宝藏呢！</div>
+  </div>
 </body>
 
 </html>
-
-<style>
-    #bg {
-        overflow: hidden;
-        object-fit: cover;
-        width: 100%;
-        z-index: -2;
-        position: fixed;
-        filter: brightness(100%);
-        height: 100vh;
-    }
-
-    .overlayText {
-        top: 30vh;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
-        width: 80vw;
-        height: 100vh;
-        align-content: center;
-        position: absolute;
-        /* animation-name: hc;
-    animation-duration: .5s;
-    animation-fill-mode: both;
-    animation-timing-function: transform 0.6s cubic-bezier(0.83, 0, 0.17, 1);
-    animation-delay: 1s; */
-    }
-
-    /* #nav {
-    background-color: rgba(0, 0, 0, 0.6);
-    position: fixed;
-    z-index: 0;
-    animation-name: navExpand;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-delay: 1s;
-    animation-timing-function: cubic-bezier(0.46, 0.15, 0, 0.82);
-    height: 100vh;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-  } */
-
-    body {
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
-
-    #bg {
-        background-color: rgb(0, 0, 0);
-        animation-name: bgdark;
-        animation-duration: 1s;
-        animation-fill-mode: both;
-        /* animation-delay: 1s; */
-        animation-timing-function: cubic-bezier(0.46, 0.15, 0, 0.82);
-    }
-
-    @keyframes hc {
-        from {
-            opacity: 0;
-            transform: translateY(5%);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateY(0%);
-        }
-    }
-
-    @keyframes navExpand {
-        from {
-            height: 0px;
-            backdrop-filter: blur(0px);
-            -webkit-backdrop-filter: blur(0px);
-            margin-top: 0;
-        }
-
-        to {
-            height: 100vh;
-            backdrop-filter: blur(15px);
-            -webkit-backdrop-filter: blur(15px);
-        }
-    }
-
-    @keyframes bgdark {
-        from {
-            filter: brightness(1) blur(0px);
-        }
-
-        to {
-            filter: brightness(0.4) blur(10px);
-        }
-    }
-</style>
